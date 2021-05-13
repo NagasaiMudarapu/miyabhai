@@ -3,7 +3,7 @@ const app = express() ;
 app.use(express.static(__dirname + '/frontend')) ;
 app.get('/', function(req, res)
 {
-    res.sendFile(__dirname + '/frontend/html/home.html') ;
+    res.sendFile(__dirname + '/frontend/home.html') ;
 }) ;
 
 var PORT = process.env.PORT || 3000 ;

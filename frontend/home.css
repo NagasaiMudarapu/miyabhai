@@ -1,0 +1,22 @@
+#form{
+    margin-top: 100px;
+    width: 30%;
+    height: 175px;
+    border: solid;
+    background-color: white;
+}
+
+body{
+    background-color: bisque;
+}
+.input-group{
+    width : 75% ;
+}
+#details
+{
+    margin-top: 100px;
+    width: 75%;
+    height: auto ;
+    border: solid;
+    background-color: white;   
+}
